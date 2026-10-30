@@ -1,0 +1,28 @@
+# Environment variables (contains private API keys)
+.env
+.env.local
+*.env
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit secrets and runtime data
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE workspace configurations
+.vscode/
+.idea/
